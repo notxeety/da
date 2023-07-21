@@ -1,0 +1,91 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #838383;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 10px;
+  text-shadow: 2px 2px 4px #000;
+}
+
+main {
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+p, li {
+  font-size: 18px;
+}
+
+ul, ol {
+  padding-left: 30px;
+}
+
+#about {
+  border-bottom: 2px solid #ff69b4;
+}
+
+#music {
+  border-bottom: 2px solid #ff4500;
+}
+
+#games {
+  border-bottom: 2px solid #1e90ff;
+}
+
+footer {
+  background-color: #ff69b4;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+  padding: 5px;
+}
+
+.music-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #1db954;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.music-button:hover {
+  background-color: #198d46;
+}
+
+.music-button:active {
+  background-color: #167c3d;
+}
